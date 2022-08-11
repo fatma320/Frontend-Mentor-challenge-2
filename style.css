@@ -42,7 +42,7 @@ body {
     background-color: hsl(216, 50%, 16%);
     border-radius: 12px;
     max-width: 380px;
-    height: 600px;
+    height: 630px;
     position: absolute;
     top: 0;
     left: 0;
@@ -96,7 +96,7 @@ section .image:hover img:last-child {
 
 section h1 {
     color: white;
-    margin: 10px;
+    margin: 10px 10px 15px 20px;
     align-self: flex-start;
 }
 
@@ -109,7 +109,7 @@ section p {
     color: hsl(215, 51%, 70%);
     align-self: flex-start;
     font-size: 18px;
-    margin: 0 10px 10px 10px;
+    margin: 0 10px 15px 20px;
 }
 
 .info {
@@ -117,7 +117,8 @@ section p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 15px;
+    margin: 10px 15px;
+    margin-bottom: 25px;
 }
 
 .info strong {
@@ -148,6 +149,7 @@ section p {
 hr {
     margin: 15px;
     border-color: var(--Softblue);
+    opacity: 0.5;
 }
 
 .creator {
